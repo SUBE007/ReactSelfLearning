@@ -1,10 +1,7 @@
- import React , { Component } from "react";
-
- class App extends Component{
-   render(){
-     return  React.createElement("h1",null,"Hello Subedar");
-   }
- }
+ import React from "react";
+ 
+let element= React.createElement("h1",null,"Hello Subedar");
+   
   
 
- export default App;
+ export default element;

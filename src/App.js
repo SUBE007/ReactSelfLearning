@@ -4,10 +4,10 @@
  const App =()=>{
    return(
      <div>
-       <Student />
-       <Student />
-       <Student />
-       <Student />
+       <Student name="Sube" />
+       <Student name="Dube" />
+       <Student name="Lube" />
+       <Student name="Mube" />
       </div>
    );
  };

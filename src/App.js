@@ -1,15 +1,6 @@
  import React from "react";
- import Student from "./Student";
- //these component Student are independent
- const App =()=>{
-   return(
-     <div>
-       <Student name="Sube" />
-       <Student name="Dube" />
-       <Student name="Lube" />
-       <Student name="Mube" />
-      </div>
-   );
- };
+  //Simple String
+  //Math Expression
+const element=<h1> Hello {10+40}</h1>;
 
- export default App;
+ export default element;

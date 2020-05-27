@@ -1,29 +1,9 @@
 import React, { Component } from "react";
+import Pt from "prop-types";
  
-// const Student=props=>{
-//       return(
-//             <div>
-//               <h1>Hello:{props.name}</h1>
-//               <h2> Your Marks:{props.marks}</h2>
-//             </div>
-//       )
-// }
-
-
-// class Student extends Component{
-//       render(){
-//             return (
-//             <div>
-//                 <h1>Hellow:</h1>
-//             <   h2>Your Marks:</h2>
-//             </div>
-            
-//             );
-//       }
-//     }
-
+  
 class Student extends Component{
-  render(props){
+  render(){
         return (
         <div>
             <h1>Hellow:{this.props.name}</h1>
@@ -33,5 +13,9 @@ class Student extends Component{
         );
   }
 }
+
+Student.propTypes={
+      name: Pt.string.isRequired
+};
 
 export default Student;
